@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Tilt Neon", cursive;
+}
+.main-section {
+  display: flex;
+}
+
+/* left side */
+.left-side {
+  background-image: url("./img/bg.jpg");
+  height: 100vh;
+  width: 50%;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.leftSideTexts {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+.leftSideText {
+  margin: 20px;
+}
+.leftSideTitle {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+/* right side */
+.right-side {
+  background-color: rgb(242, 242, 242);
+  height: 100vh;
+  display: inline-flex;
+  width: 49%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginFormDiv {
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  margin: 40px;
+}
+.loginForm {
+  display: grid;
+}
+.form-text {
+  border: none;
+  padding: 12px;
+  border-inline-start: 6px solid rgb(100, 100, 239);
+  background: rgb(235, 235, 235);
+  margin-block: 10px;
+  border-radius: 8px;
+  transition: all 0.6s;
+}
+.form-text:focus {
+  border-inline-start: 6px solid rgb(100, 204, 239);
+  transform: scale(1.05);
+}
+.form-header {
+  width: 400px;
+}
+.form-title {
+  color: rgb(100, 100, 239);
+  margin-bottom: 10px;
+}
+
+.form3 {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
+  margin-bottom: 50px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(100, 100, 239);
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+  border: none;
+  height: 45px;
+  transition: all 0.6s;
+}
+
+.btn:hover {
+  background-color: rgb(156, 156, 239);
+  transform: scale(0.9);
+}
